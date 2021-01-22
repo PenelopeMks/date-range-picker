@@ -32,6 +32,7 @@ function callbackFunciton(dates) {
 function MyComponent() {
     return (
       <DateRangePicker 
+        pickMethod="range"
         callback={callbackFunciton}
       />
     )
